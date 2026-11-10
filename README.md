@@ -1,3 +1,59 @@
+# DayMemo
+
+**English** | [한국어](#오늘메모-daymemo)
+
+**Google Calendar events, tasks and sticky notes on one Windows desktop screen. Optional Google and Apple iCloud sync.**
+
+[**⬇ Download the latest beta**](https://github.com/MinByungGil/daymemo-releases/releases/latest)
+
+> **Community beta.** Planned to be usable until **December 20, 2026 (KST)**; this date may change. Your notes are never deleted when the beta ends.
+
+<p align="center">
+  <img src="images/today-en.png" alt="Today window" width="320">
+</p>
+
+I made DayMemo because sticky notes ignore your schedule, desktop calendar widgets are often view-only, and tasks live in yet another app. I wanted my **calendar events always on the desktop, like a note**, and editable right there.
+
+I'm the developer, a solo indie dev. This is a limited beta to check that it works on other people's PCs.
+**I have not been able to test on Windows 10.** If you run it on Windows 10, please leave a comment or send feedback about whether it worked.
+
+## Key features
+
+| | |
+|---|---|
+| **Google Calendar** | View, add, edit and delete events from the Today window. Pick which calendar a new event goes to. |
+| **Today window** | Today's events and tasks on one screen. Click a date in the mini calendar to see other days. |
+| **Google Tasks** | View, add, edit and complete tasks, including subtasks. |
+| **iCloud Calendar** | View, add, edit and delete events. Apple Reminders are view-only. |
+| **Desktop notes** | Each note is its own window: snap to other notes and screen edges, checklists, indentation, 8 pastel themes, opacity, always-on-top. |
+| **Organize and back up** | Tags and search, trash with restore, ZIP backup and restore. |
+| **Other** | English and Korean UI, runs in the system tray. |
+
+Connecting Google or iCloud is **optional**. Notes work fully without connecting anything.
+
+## Where is my data stored?
+
+- Notes are stored **only on your PC** (`%LOCALAPPDATA%\DayMemo`, SQLite). Nothing is uploaded to a server run by the developer.
+- There is no app account or sign-up. Google/iCloud sign-in tokens and passwords are encrypted with Windows DPAPI.
+- Error reporting is **off by default** and only sent anonymously if you turn it on.
+- To check the beta deadline, this beta build reads one public file in this repository (`beta-status.json`). No user information is sent.
+
+## Install
+
+1. Download `DayMemo-community-beta-win-x64.zip` from [Releases](https://github.com/MinByungGil/daymemo-releases/releases/latest).
+2. **Extract the whole ZIP**, then run `DayMemo.exe`. Keep all files together.
+3. Windows 64-bit only. You do not need to install .NET.
+4. The build is not code-signed yet, so Windows may show a "Windows protected your PC" (SmartScreen) warning. Click **More info → Run anyway**. You can compare the download with the SHA256 value shown in the release notes.
+
+## About the beta
+
+- After the deadline, creating and editing notes is limited, but **your notes are not deleted**. You can still view, copy and export a ZIP backup.
+- The app shows a notice 7 days before the deadline.
+- Final pricing and distribution for the full version have not been decided yet.
+- Please send feedback with **"Send bug report / feedback"** inside the app. Even one thing that felt awkward helps a lot.
+
+---
+
 # 오늘메모 (DayMemo)
 
 **바탕화면 메모 + 오늘의 일정·할 일을 한 화면에서 — Windows, Google · Apple iCloud 연동**
@@ -40,7 +96,7 @@
 
 1. [Releases](https://github.com/MinByungGil/daymemo-releases/releases/latest)에서 `DayMemo-community-beta-win-x64.zip`을 받습니다.
 2. ZIP을 **모두 풀고** `DayMemo.exe`를 실행합니다. 파일을 함께 두어야 합니다.
-3. Windows 64비트 전용이며 .NET은 따로 설치하지 않아도 됩니다.
+3. Windows 64비트 전용이며 .NET은 따로 설치하지 않아도 됩니다. **Windows 10에서는 아직 테스트하지 못했습니다.** Windows 10에서 실행해 보셨다면 동작 여부를 댓글이나 의견으로 알려 주세요.
 4. 아직 코드 서명이 없어 Windows가 "PC 보호" 경고를 띄울 수 있습니다. **추가 정보 → 실행**을 누르세요. 받은 파일은 릴리스의 SHA256 값과 비교해 확인할 수 있습니다.
 
 ## 테스트 안내
