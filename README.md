@@ -55,6 +55,7 @@ Connecting Google or iCloud is **optional**. Notes work fully without connecting
 - The app shows a notice 7 days before the deadline.
 - Final pricing and distribution for the full version have not been decided yet.
 - Please send feedback with **"Send bug report / feedback"** inside the app. Even one thing that felt awkward helps a lot.
+- Or use the short English feedback form: https://forms.gle/reUVpGnoGwYYHodW6
 
 ---
 
