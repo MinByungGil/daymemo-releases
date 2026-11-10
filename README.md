@@ -12,6 +12,10 @@
   <img src="images/today-en.png" alt="Today window" width="320">
 </p>
 
+<p align="center">
+  <img src="images/demo-en.gif" alt="DayMemo demo" width="640">
+</p>
+
 I made DayMemo because sticky notes ignore your schedule, desktop calendar widgets are often view-only, and tasks live in yet another app. I wanted my **calendar events always on the desktop, like a note**, and editable right there.
 
 I'm the developer, a solo indie dev. This is a limited beta to check that it works on other people's PCs.
@@ -65,6 +69,10 @@ Connecting Google or iCloud is **optional**. Notes work fully without connecting
 <p align="center">
   <img src="images/today-ko.png" alt="오늘 창" width="320">
   <img src="images/note1-ko.png" alt="메모" width="320">
+</p>
+
+<p align="center">
+  <img src="images/demo-ko.gif" alt="오늘메모 시연" width="640">
 </p>
 
 스티커 메모는 일정과 따로 놀고, 바탕화면 캘린더는 보기만 되고, 할 일은 또 다른 앱에서 열어야 해서 앱을 여러 개 켜 두고 쓰는 불편을 줄이려고 만들었습니다.
